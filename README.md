@@ -8,6 +8,8 @@ This project implements a modified version of the Segment Anything Model (SAM) f
 
 The key innovation is the use of Fast Fourier Transform (FFT) to reduce the complexity of self-attention from O(n²) to O(n log n), enabling faster training and inference while maintaining segmentation quality.
 
+![Nail Segmentation Example](ScrShot%2018.png)
+
 ## Features
 
 - **FFT-based Self-Attention**: Replaces standard self-attention with a more efficient FFT-based implementation
@@ -81,6 +83,8 @@ nail_seg/
 ## Results
 
 The FFT-based attention mechanism achieves comparable segmentation quality to standard self-attention while significantly reducing training time and memory usage. This makes it particularly suitable for deployment on resource-constrained devices.
+
+![Nail Segmentation Results](ScrShot%2021.png)
 
 ## Citation
 
